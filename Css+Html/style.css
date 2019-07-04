@@ -1,0 +1,242 @@
+.body{
+   font-family: Arial;
+   display: flex;
+   height: 1300px;
+   width: 1240px;
+   overflow: hidden;
+   position: relative;
+   margin: auto;
+}
+.left{
+   float: left;
+   height: 200%;
+   width: 54%;
+   clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+   position: absolute;
+   background:#6d6e72;
+
+}
+.right{
+  
+   float: right;
+   height: 200%;
+   width: 54%;
+   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+   position: absolute;
+   margin-left: 48%;
+   background:#e5efe7;
+   
+}
+.header{
+   float: left;
+   margin-top: 40px;
+   height: 15%;
+   width: 90%;
+   background: white;
+   position: absolute;
+
+}
+.header-left{
+   float: left;
+   height: 100%;
+   width: 70%;
+   clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+   position: absolute;
+   background:#3a3d42;
+   color: white;
+   font-size: 20px;
+   
+
+}
+.header-left h1{
+   margin-left: 30px;
+   font-weight: 1000;
+   line-height: 0.5;
+   
+}
+.prof{
+   margin-top: 0;
+   font-size: 40px;
+   line-height: 0.3;
+   margin-left: 30px;
+}
+.city{
+   font-size: 20px;
+   line-height: 0.3;
+   margin-left: 30px;
+   position: absolute;
+   bottom: 0;
+}
+.header-right{
+   float: right;
+   height: 100%;
+   width: 40%;
+   clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+   position: absolute;
+   margin-left: 60%;
+   background:#f3f3f3;
+   background-image: url(man);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   
+}
+.left-info{
+   margin-top: 250px;
+   padding-left: 30px;
+}
+.label-left{
+   height: 30px;
+   background: #e5efe7;
+   display: inline-block;
+   font-size: 30px;
+   padding: 15px 10px 15px 10px;
+   margin-top: 10px;
+   position: relative;
+   margin-bottom: 30px;
+}
+.label-left:after{
+   z-index: -1;
+  position: absolute;
+  content: "'";
+  right: 1px;
+  left: auto;
+  width: 70%;
+  top: 16%;
+  max-width:300px;
+  background: black;
+  -webkit-box-shadow: 0 19px 7px black;
+  -moz-box-shadow: 0 19px 7px black;
+  box-shadow: 0 19px 7px black;
+
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.skill{
+   color: white;
+   font-size: 20px;
+   margin-bottom: 30px;
+   
+}
+.skill li{
+   list-style: none;
+   margin-bottom: 10px;
+}
+.div{
+   background-repeat: no-repeat;
+   display: flex;
+   margin-top: 10px;
+}
+.p{
+   margin-left: 60px;
+   margin-bottom: 10px;
+   transform: translateY(-30%);
+   }
+.js{
+   background-image: url(js.jpg);
+}
+.react{
+   background-image: url(react.jpeg);
+}
+.node{
+   background-image: url(node.jpg);
+}
+.css{
+   background-image: url(css.png);
+}
+.html{
+   background-image: url(html.jpg);
+}
+.education{
+   margin-top: 10px;
+   color: white;
+   margin-bottom: 30px;
+
+}
+.hobby{
+   color: white;
+   font-size: 20px;
+   margin-bottom: 30px;
+}
+.fishing{
+   background-image: url(fishing.jpg);
+}
+.handmade{
+   background-image: url(heandmade.jpg);
+}
+.gitar{
+   background-image: url(gitar.jpg);
+}
+.right div{
+   margin-left: 70px;
+}
+.label-right{
+   margin-top: 250px;
+}
+.label-right{
+   height: 30px;
+   background: #6d6e72;
+   color: white;
+   display: inline-block;
+   font-size: 30px;
+   padding: 15px 10px 15px 10px;
+   margin-top: 250px;
+   position: relative;
+}
+.label-right:after{
+   z-index: -1;
+  position: absolute;
+  content: "'";
+  right: 1px;
+  left: auto;
+  width: 70%;
+  top: 16%;
+  max-width:300px;
+  background: black;
+  -webkit-box-shadow: 0 19px 7px black;
+  -moz-box-shadow: 0 19px 7px black;
+  box-shadow: 0 19px 7px black;
+
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+.experience p{
+   line-height: 0.3;
+}
+.contact{
+   margin-top: 20px;
+   float: right;
+   width: 80%;
+   height: 200px;
+   background: #3a3d42;
+   color: white;
+   clip-path: polygon(10% 0, 100% 6%, 100% 98%, 0% 100%);
+   line-height: 0.4;
+   box-shadow:0px 0px 17px 15px rgba(0,0,0,0.48);
+   -webkit-box-shadow:0px 0px 17px 15px rgba(0,0,0,0.48);
+   -moz-box-shadow:0px 0px 17px 15px rgba(0,0,0,0.48);
+}
+
+.email{
+   background-image: url(email.png);
+   
+}
+.phone{
+   background-image: url(phone.png);
+}
+.site{
+   background-image: url(site.png);
+}
+
+.contact h3{
+   margin-top: 15px;
+   margin-left: 80px;
+   font-size: 30px;
+   line-height: 0.4;
+}
